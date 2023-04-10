@@ -1,0 +1,309 @@
+@font-face {
+    font-family: "GothamBook" ;
+    src: url(Hymm-Fonts/GothamBook.ttf) format("truetype");
+    
+}
+@font-face {  
+    font-family: "GothamMedium_1" ;
+    src: url(Hymm-Fonts/GothamMedium_1.ttf) format("truetype"); 
+}
+@font-face {  
+    font-family: "Gotham-Bold" ;
+    src: url(Hymm-Fonts/GothamBold.ttf) format("truetype"); 
+}
+@font-face {  
+    font-family: "GothamLight" ;
+    src: url(Hymm-Fonts/GothamLight.ttf) format("truetype"); 
+}
+*{
+    font-size: 18px;
+}
+
+html{
+    margin:0;
+    padding: 0;
+    background-image: url("Hymn-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.song-title{
+    font-family: "GothamMedium_1";
+    font-size: 40px; 
+    text-align: center;
+}
+
+.song-writer{
+    font-family: "GothamLight";
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.music-player{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lyrics-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;           
+    overflow: hidden;
+}
+.pup-lyrics{
+    font-family: "GothamMedium_1";
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    
+}
+
+.pup-lyrics:hover{
+    -webkit-text-fill-color:  white;
+}
+.whole-lyrics{
+    font-family: "GothamMedium_1";
+    color: transparent;
+    line-height: 25px;
+    text-shadow: 0 0 3px rgb(245, 215, 215);
+    font-size: 20px;
+}
+.whole-lyrics:hover{
+   -webkit-text-fill-color:  white;
+    
+}
+.highlighted-text{
+    font-family: "Gotham-bold";
+    text-shadow: 2px 4px 4px rgba(31, 32, 33, 0.6);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.box-main{
+    border: 1px solid transparent;
+    background: rgba(80, 81, 83, 0.2);
+    padding: 30px;
+    width: 400px;
+    height: 340px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px 
+}
+audio{
+    position: absolute;
+    top: 490px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+@keyframes scroll-lyrics-hymn1 {
+    0%{
+        transform: translateY(-0px);
+    }
+    100%{
+        transform: translateY(-120px);
+    }
+}
+@keyframes scroll-lyrics-hymn2 {
+    0%{
+        transform: translateY(-120px);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+}
+@keyframes scroll-lyrics-hymn3 {
+    0%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-180px);
+    }
+}
+@keyframes scroll-lyrics-hymn4 {
+    0%{
+        transform: translateY(-180px);
+    }
+    100%{
+        transform: translateY(-210px);
+    }
+}
+@keyframes scroll-lyrics-hymn5 {
+    0%{
+        transform: translateY(-210px);
+    }
+    100%{
+        transform: translateY(-240px);
+    }
+}
+@keyframes scroll-lyrics-hymn6 {
+    0%{
+        transform: translateY(-240px);
+    }
+    100%{
+        transform: translateY(-270px);
+    }
+}
+@keyframes scroll-lyrics-hymn7 {
+    0%{
+        transform: translateY(-270px);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+@keyframes scroll-lyrics-hymn8 {
+    0%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(-330px);
+    }
+}
+@keyframes scroll-lyrics-hymn9 {
+    0%{
+        transform: translateY(-310px);
+    }
+    100%{
+        transform: translateY(-340px);
+    }
+}
+@keyframes scroll-lyrics-hymn10 {
+    0%{
+        transform: translateY(-340px);
+    }
+    100%{
+        transform: translateY(-370px);
+    }
+}
+@keyframes scroll-lyrics-hymn11 {
+    0%{
+        transform: translateY(-370px);
+    }
+    100%{
+        transform: translateY(-400px);
+    }
+}
+@keyframes scroll-lyrics-hymn12 {
+    0%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(-430px);
+    }
+}
+@keyframes scroll-lyrics-hymn13 {
+    0%{
+        transform: translateY(-430px);
+    }
+    100%{
+        transform: translateY(-460px);
+    }
+}
+@keyframes scroll-lyrics-hymn14 {
+    0%{
+        transform: translateY(-460px);
+    }
+    100%{
+        transform: translateY(-490px);
+    }
+}
+@keyframes scroll-lyrics-hymn15 {
+    0%{
+        transform: translateY(-480px);
+    }
+    100%{
+        transform: translateY(-510px);
+    }
+}
+@keyframes scroll-lyrics-hymn16 {
+    0%{
+        transform: translateY(-510px);
+    }
+    100%{
+        transform: translateY(-540px);
+    }
+}
+@keyframes scroll-lyrics-hymn17 {
+    0%{
+        transform: translateY(-540px);
+    }
+    100%{
+        transform: translateY(-600px);
+    }
+}
+@media only screen and (max-width: 500px){
+    
+    .box-main{    
+        width: 350px;
+        height: 340px;
+    }
+    .lyrics-container{
+        width: 350px;
+        height: 200px;          
+    }
+    .pup-lyrics{
+        font-size: 16px;  
+    }
+    .whole-lyrics{
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (max-width: 450px){
+   
+    .box-main{
+        width: 300px;
+        height: 340px;
+    }
+    .lyrics-container{  
+        width: 300px;
+        height: 200px;          
+    }
+    .pup-lyrics{
+        font-size: 13px;
+        
+    }
+    .whole-lyrics{
+        font-size: 13px;
+    }
+    
+}
+@media only screen and (max-width: 375px){
+
+    .song-title{
+        font-size: 30px; 
+    }
+    .song-writer{
+        font-size: 10px;
+    }
+    .box-main{
+        width: 250px;
+        height: 340px;
+    }
+    .lyrics-container{
+        width: 250px;
+        height: 200px;             
+    }
+    .pup-lyrics{
+        font-size: 12px;  
+    }
+    .whole-lyrics{
+        font-size: 12px;
+    }
+    
+}
